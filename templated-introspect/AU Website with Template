@@ -9,8 +9,38 @@
 
 <p>We here at AU have developed an atmosphere where all inhibitions run loose. Full sends are the only acceptible send. Half sends are a sign of weakness, and are not welcome in the Thunderdome.</p>
 
-<h2>Donate to the debauchery</h2>
+<h2>Check out that fresh ass merch</h2>
+<h2 class="w3-center">Manual Slideshow</h2>
 
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="img_Shirt-back.jpg" style="width:50%">
+  <img class="mySlides" src="img_Shirt-front.jpg" style="width:50%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<h3>Donate to the debauchery</h3>
 <img src="Bernie.jpg" alt="Bernie" width="563" height="556">
 <button onclick="window.location.href = 'https://w3docs.com';">Donate Here</button>
 </body>
