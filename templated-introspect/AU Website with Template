@@ -2,7 +2,7 @@
     <head>
         <title>WELCOME TO THE RAGE</title>
     </head>
-<img src="file:///Users/sultanhashmi/Desktop/web-projects/PageRage.jpg" alt="Page Rage" width="900" height="1022">
+<p><img src="file:///Users/sultanhashmi/Desktop/web-projects/PageRage.jpg" alt="Page Rage" width="900" height="1022"></p>
 
 <body>
 <h1>About us</h1>
@@ -41,7 +41,7 @@ function showDivs(n) {
 </script>
 
 <h3>Donate to the debauchery</h3>
-<img src="file:///Users/sultanhashmi/Desktop/web-projects/Bernie.jpg" alt="Bernie" width="563" height="556">
+<p><img src="file:///Users/sultanhashmi/Desktop/web-projects/Bernie.jpg" alt="Bernie" width="563" height="556"></p>
 <button onclick="window.location.href = 'https://w3docs.com';">Donate Here</button>
 </body>
 </html>
